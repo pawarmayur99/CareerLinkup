@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <style>
+     
+     body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        header img {
+            width: 80px;
+            margin-right: 10px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px; 
+        }
+        nav a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+        .job {
+            text-align: center;
+            padding: 50px;
+        }
+        .job input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 50px ;
+        }
+        .but {
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .but:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        #di{
+            display: flex;
+            justify-content: center;    
+        }
+        .title
+        {
+            border: 1px solid #ccc ;
+            background-color: #fff;
+            width: 250px;
+            padding: 30px;
+            margin: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+         
+        }
+        .title h2 {
+            margin: 0;
+            color: #007BFF;
+        }
+
+        .title p {
+            margin: 10px 0;
+        }
+        #did
+        {
+            display: flex;
+            justify-content: center;  
+        }
+        .titlee
+        {
+            border: 1px solid #9e2828 ;
+            background-color: #fff;
+            width: 250px;
+            padding: 30px;
+            margin: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    height:40px;  
+    border:2px solid; 
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.item:hover {
+    transform: scale(1.02);
+}
+
+        #noResults {
+            text-align: center;
+            display: none;
+            color: green;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header> 
+        <img src="logo.png" alt="logo">   
+        <h1>CareerLinkup.com</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="Company_reviews.html">Company reviews</a>
+        <a href="Contact.html">Contact</a>
+        <a href="About.html">About</a>
+        <a href="login.html">Login</a>
+        <a href="Signup.html">Signup</a>
+         <a href='logout'>Logout</a> 
+         
+    </nav>  
+    <div class="job">
+        <form action="HomeController" method="get">
+        
+            <input type="text" name="Name" id="searchInput" placeholder="Enter Job Title">
+            <button class="but">Search Jobs</button>
+        </form>
+    </div>
+
+    <main id="di">
+    <main id="di">
+        <div class="item" class="title">            <h2>Java/Python Developer</h2>
+            <p>Deloitte, Bengaluru, Karnataka</p>
+            <p>About :</p> 
+            <p>At Deloitte, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market. We work with a vision to make the world more prosperous, trustworthy, and safe. </p>
+        </div>
+
+        <div class="item" class="title"><h2>SQL Developer</h2>
+            <p>Gujarathi Empire Group, Pune Maharashtra</p>
+                <p>About</p>
+            <p>Gujarathi Empire group always have opportunity for dedicated, sincere candidates pool from Shipping Industry , Logistics and Information Technology
+                Candidate can share their resumes at hr@gujarathiempire 
+               /p></div>
+    </main>
+    <main id="di">
+        <div class="item" class="title"><h2>Java/PHP Developer</h2>
+            <p>DSSWorld,  Pune Maharashtra</p>
+            <p>About</p>
+            <p>At DSSWorld, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market.</p>
+        </div>
+
+        <div class="item" class="title">            <h2>Full Stack Java Developer</h2>
+            <p>Codify Software Services, Pune Maharashtra</p>
+            <p>About</p>
+            <P>Here’s how the job details align with your job preferences. Manage job preferences anytime in your</P>
+            <a href="https://codifysoftwareservices.com/">profile</a>
+</div>
+    </main>
+</main>
+<main id="di">
+   
+    <main id="di">
+        <div class="item" class="title">   <h2>Java/Python Developer</h2>
+            <p>Deloitte, Bengaluru, Karnataka</p>
+            <p>About :</p>
+            <p>At Deloitte, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market. We work with a vision to make the world more prosperous, trustworthy, and safe. </p>
+        </div>
+        <div class="item" class="title">        <h2>SQL Developer</h2>
+            <p>Gujarathi Empire Group
+               , Pune Maharashtra
+                </p>
+                <p>About</p>
+            <p>Gujarathi Empire group always have opportunity for dedicated, sincere candidates pool from Shipping Industry , Logistics and Information Technology
+                Candidate can share their resumes at hr@gujarathiempire.in
+                </p></div>
+           </main>
+    <main id="di">
+        <div class="item" class="title">  <h2>Java/PHP Developer</h2>
+            <p>DSSWorld,  Pune Maharashtra</p>
+            <p>About</p>
+            <p>At DSSWorld, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market.</p>
+        </div>
+        <div class="item" class="title"><h2>Full Stack Java Developer</h2>
+            <p>Codify Software Services, Pune Maharashtra</p>
+            <p>About</p>
+            <P>Here’s how the job details align with your job preferences. Manage job preferences anytime in your</P>
+            <a href="https://codifysoftwareservices.com/" target="_blank">profile</a></div>
+    </main>
+</main>
+<main id="di">
+   
+    <main id="di">
+        <div class="item" class="title"><h2>Java/Python Developer</h2>
+            <p>Deloitte, Bengaluru, Karnataka</p>
+            <p>About :</p>
+            <p>At Deloitte, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market. We work with a vision to make the world more prosperous, trustworthy, and safe. </p>
+        </div>
+        <div class="item" class="title"> <h2>SQL Developer</h2>
+            <p>Gujarathi Empire Group
+               , Pune Maharashtra
+                </p>
+                <p>About</p>
+            <p>Gujarathi Empire group always have opportunity for dedicated, sincere candidates pool from Shipping Industry , Logistics and Information Technology
+                Candidate can share their resumes at hr@gujarathiempire.in
+                </p></div>
+           </main>
+    <main id="di">
+        <div class="item" class="title"> <h2>Java/PHP Developer</h2>
+            <p>DSSWorld,  Pune Maharashtra</p>
+            <p>About</p>
+            <p>At DSSWorld, we do not offer you just a job, but a career in the highly sought-after risk Management field. We are one of the business leaders in the risk market.</p>
+        </div>
+        <div class="item" class="title"><h2>Full Stack Java Developer</h2>
+            <p>Codify Software Services, Pune Maharashtra</p>
+            <p>About</p>
+            <P>Here’s how the job details align with your job preferences. Manage job preferences anytime in your</P>
+            <a href="https://codifysoftwareservices.com/" target="_blank">profile</a></div>
+    </main>
+</main>
+    <div id="noResults">No results found</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const searchInput = document.getElementById("searchInput");
+            const items = document.querySelectorAll(".item");
+            const noResultsMessage = document.getElementById("noResults");
+
+            searchInput.addEventListener("input", (event) => {
+                const searchTerm = event.target.value.toLowerCase();
+                let found = false;
+
+                items.forEach((item) => {
+                    const itemText = item.textContent.toLowerCase();
+                    if (itemText.includes(searchTerm)) {
+                        item.style.display = "block";
+                        found = true;
+                    } else {
+                        item.style.display = "none";
+                    }
+                });
+
+                if (found) {
+                    noResultsMessage.style.display = "none";
+                } else {
+                    noResultsMessage.style.display = "block";
+                }
+            });
+        });
+    </script>
+     <footer>
+        <p>&copy; 2023 CareerLinkup.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>

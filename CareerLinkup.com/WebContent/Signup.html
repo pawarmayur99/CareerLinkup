@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sign up Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg,#a29bfe,#f5f5dc);
+        }
+          
+        #formContainer {
+            border: 1px solid #ccc; 
+            padding: 20px;
+            background-color: #fff;
+            background: transparent;
+        }
+
+        .sub {
+            width: 250px;
+            height: 28px;
+            font-size: 15px;
+            cursor: pointer;
+            background: transparent;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form input, form select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            background: transparent;
+        }
+
+        form input[type="submit"] {
+            margin-top: 20px;
+            cursor: pointer;
+        }
+       .pass
+       {
+        color: red;
+        font-size: 11px;
+        padding: 0%;
+       }
+    </style>
+</head>
+<body>
+ <form action="conn" method="post"> 
+ 
+    <div id="formContainer">
+        <h1>Signup Form</h1>
+       
+            <label for="Name">Full Name :</label>
+            <input type="text" name="Name" placeholder="What is your name?">
+
+            <label for="Email"> Email Id :</label>
+            <input type="Email" id="Email" placeholder="Enter Email" name="Email">
+            <label for="" class="pass">Email ID is required</label>
+
+                        <label >Mobile Number</label>
+            <input type="text" placeholder="Mobile Number" name="Mobile">
+            
+            <label for="Contact"> Password :</label>
+            <input type="text"  name="Password" placeholder="Create a password for your account">
+            <label for="" class="pass">Password is required</label>
+
+          <label for="fileUpload">Upload resume:</label>
+          <input type="file">
+
+        <br><br>
+        <button class="sub">Submit</button>
+        <br>
+        <br>
+        <a href="login.html">Go To Login Page</a>
+    </div>
+</form>
+</body>
+</html>

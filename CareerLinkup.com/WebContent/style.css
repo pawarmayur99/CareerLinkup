@@ -1,0 +1,26 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ccc;
+}
+th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:hover {
+     cursor: pointer;
+     background-color:skyblue;
+     
+     }
+div{
+	text-align: center;
+}

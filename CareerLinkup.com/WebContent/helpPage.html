@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Help and Support - CareerLinkup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        header img {
+            height: 80px;
+            width: 80px;
+            margin-right: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #090a0a;
+        }
+        h2 {
+            color: #00416A;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .faq {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .fre{
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        input,button{
+            width: 10%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            border-radius: 10px;
+            height: 30px;
+            width: 750px;
+            font-size: large;
+        }
+       textarea{
+       width: 100%;
+       height: 90px;
+       font-size: 20px;
+       }
+       button{
+        height: 10%;
+        background-color: darkblue;
+        color:#f7f7f7;
+       }
+      .im{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+       .ll{
+        text-align: right;
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+        margin-right: 20px;
+       }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="logo">  
+        <h1>CareerLinkup.com</h1> 
+    </header>
+    <div class="ll">      
+        <a href="login.html"><h3>Login</h3></a>
+        <h3>/</h3>
+      <a href="Signup.html"><h3> Register</h3></a> 
+   </div>
+        <h1>Help and Support</h1>
+    <div class="container">
+        <div class="faq">
+            <h3>How do I create an account?</h3>
+            <p>To create an account, go to the <a href="Signup.html">Sign Up</a> page and fill out the required information.</p>
+        </div>
+        <div class="faq">
+            <h3>How can I reset my password?</h3>
+            <p>You can reset your password by visiting the <a href="reset_pasword.html">Forgot Password</a> page and following the instructions.</p>
+        </div>
+        <h2>Contact Us</h2>
+        <p>If you need further assistance, you can reach our support team by email at <a href="mailto:support@careerlinkup.com">support@careerlinkup.com</a>.</p>
+            
+            <div class="fre">
+            <form action="help" method="post">
+            <h2>Contact Form</h2>
+            <label for="name">Your Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+            <br><br>
+            <label for="">Contact:</label>
+            <input type="text" name="contact" required placeholder="Enter Your Contact Number">
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+            <br><br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" required placeholder="Enter Your Query"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+             </form>
+        </div>        
+    </div>
+</body>
+</html>
+
